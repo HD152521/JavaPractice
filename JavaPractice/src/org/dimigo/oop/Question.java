@@ -32,7 +32,7 @@ public class Question {
 		System.out.print(question[i]);
 		Scanner scanner = new Scanner(System.in);
 		String answer1 = scanner.nextLine();
-		sb.append(question[i]+" "+answer[i]+"\n");
+		sb.append(question[i]+" "+answer[i]+"입니다."+"\n");
 		System.out.println(answer[i].equals(answer1) ? "정답입니다!" : "틀렸습니다!");
 	}
 		System.out.println("<<결과 출력>>");
